@@ -3,33 +3,23 @@ Lab5
 Andivan
 15/06/2021
 
-## R Markdown
+# How to fork a project of someone else
 
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
+Top right hand “Fork” → this will create a copy of the repository into
+your Github account Then clone the repositry so you get a copy to your
+machine by running the command → git clone
+<https://github.com/a-hendivan/DAS_Bingo.git>
 
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
+# Master Vs Branch
 
-``` r
-summary(cars)
-```
+Always make a new branch to do the commits on , it is easier if at a
+time you need to pull the previous version . To create a new branch run
+the command <br /> → git branch name-3 <br /> and then you need to
+checkout <br /> → git checkout name-3
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+# Update
 
-## Including Plots
+After you have done that means we are :
 
-You can also embed plots, for example:
-
-![](Lab5_files/figure-gfm/pressure-1.png)<!-- -->
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+• a fork MYACCOUNTNAME/REPOSNAME <br /> • a clone of the fork <br /> •
+the fork MYACCOUNTNAME/REPOSNAME is the remote " origin" for my machine

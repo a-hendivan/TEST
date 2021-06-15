@@ -2,29 +2,32 @@
 title: "Lab5"
 author: "Andivan"
 date: "15/06/2021"
-output: github_document
+output: 
+              github_document
+                
+
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
-## R Markdown
+# How to fork a project of someone else
+Top right hand "Fork" &#8594; this will create a copy of the repository into your  Github account
+Then clone the repositry so you get a copy to your machine
+by running the command 
+&#8594;
+git clone  https://github.com/a-hendivan/DAS_Bingo.git
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+# Master Vs Branch 
+Always make a new branch to do the commits on , it is easier if at a time you need to pull the previous version . 
+To create a new branch run the command <br />
+&#8594; git branch name-3 <br />
+and then you need to checkout <br />
+&#8594; git checkout name-3
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+# Update 
+After you have done that means we are  : 
 
-```{r cars}
-summary(cars)
-```
+ &#8226; a fork MYACCOUNTNAME/REPOSNAME  <br />
+ &#8226; a clone of the fork  <br />
+ &#8226; the fork MYACCOUNTNAME/REPOSNAME is the remote " origin" for my machine
 
-## Including Plots
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
